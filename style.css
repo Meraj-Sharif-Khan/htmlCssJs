@@ -111,13 +111,15 @@ body {
   border-radius: 1rem;
 }
 
+a.visited {
+  color: var(--color-border);
+}
 .linkGroup a:hover {
   color: tomato;
 }
 .linkGroup a:active {
   transform: scale(0.95);
 }
-
 .projectInfo {
   padding: 1rem;
   border: 2px solid var(--color-border);
